@@ -76,7 +76,7 @@ func NewEvaler(daemon *api.Client, toSpawn *daemon.Daemon,
 		modules[name] = mod
 	}
 
-	return &Evaler{
+	evaler := &Evaler{
 		Builtin: makeBuiltinNamespace(daemon),
 		Global:  Namespace{},
 		Modules: modules,
@@ -86,6 +86,11 @@ func NewEvaler(daemon *api.Client, toSpawn *daemon.Daemon,
 		DataDir: dataDir,
 		intCh:   nil,
 	}
+	for mod_name := range embeddedModules {
+		evaler.SourceText("<builtin module>", embeddedModules[mod_name])
+	}
+
+	return evaler
 }
 
 func (ev *Evaler) searchPaths() []string {
