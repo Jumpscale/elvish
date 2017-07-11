@@ -6,7 +6,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/util"
 )
 
 var (

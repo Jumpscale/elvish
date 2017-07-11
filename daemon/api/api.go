@@ -1,7 +1,7 @@
 // Package API provides the API to the daemon RPC service.
 package api
 
-import "github.com/elves/elvish/store/storedefs"
+import "github.com/jumpscale/elvish/store/storedefs"
 
 const (
 	// ServiceName is the name of the RPC service exposed by the daemon.

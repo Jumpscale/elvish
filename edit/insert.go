@@ -6,9 +6,9 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/eval"
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/edit/ui"
+	"github.com/jumpscale/elvish/eval"
+	"github.com/jumpscale/elvish/util"
 )
 
 // Builtins related to insert and command mode.

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/elves/elvish/parse"
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/parse"
+	"github.com/jumpscale/elvish/util"
 )
 
 // Exception represents an elvish exception. It is both a Value accessible to

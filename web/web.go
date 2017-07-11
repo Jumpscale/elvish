@@ -13,8 +13,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/elves/elvish/eval"
-	"github.com/elves/elvish/parse"
+	"github.com/jumpscale/elvish/eval"
+	"github.com/jumpscale/elvish/parse"
 )
 
 type Web struct {

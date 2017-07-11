@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/elves/elvish/daemon/api"
+	"github.com/jumpscale/elvish/daemon/api"
 )
 
 var ErrDaemonOffline = errors.New("daemon is offline")

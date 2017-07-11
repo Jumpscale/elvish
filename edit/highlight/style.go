@@ -1,8 +1,8 @@
 package highlight
 
 import (
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/parse"
+	"github.com/jumpscale/elvish/edit/ui"
+	"github.com/jumpscale/elvish/parse"
 )
 
 // Semantically applied styles.

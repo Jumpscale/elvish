@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/eval"
+	"github.com/jumpscale/elvish/edit/ui"
+	"github.com/jumpscale/elvish/eval"
 )
 
 // This file contains several "registries", data structure that are written

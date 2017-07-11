@@ -22,7 +22,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/elves/elvish/parse"
+	"github.com/jumpscale/elvish/parse"
 )
 
 type compileBuiltin func(*compiler, *parse.Form) OpFunc

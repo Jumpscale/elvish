@@ -3,7 +3,7 @@ package eval
 import (
 	"testing"
 
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/util"
 )
 
 var parseAndFixListIndexTests = []struct {

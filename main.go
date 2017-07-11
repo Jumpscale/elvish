@@ -18,15 +18,15 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/elves/elvish/daemon"
-	"github.com/elves/elvish/daemon/api"
-	"github.com/elves/elvish/daemon/service"
-	"github.com/elves/elvish/eval"
-	"github.com/elves/elvish/eval/re"
-	"github.com/elves/elvish/shell"
-	"github.com/elves/elvish/store/storedefs"
-	"github.com/elves/elvish/util"
-	"github.com/elves/elvish/web"
+	"github.com/jumpscale/elvish/daemon"
+	"github.com/jumpscale/elvish/daemon/api"
+	"github.com/jumpscale/elvish/daemon/service"
+	"github.com/jumpscale/elvish/eval"
+	"github.com/jumpscale/elvish/eval/re"
+	"github.com/jumpscale/elvish/shell"
+	"github.com/jumpscale/elvish/store/storedefs"
+	"github.com/jumpscale/elvish/util"
+	"github.com/jumpscale/elvish/web"
 )
 
 // defaultPort is the default port on which the web interface runs. The number

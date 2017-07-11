@@ -4,9 +4,9 @@ import (
 	"os"
 	"os/user"
 
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/eval"
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/edit/ui"
+	"github.com/jumpscale/elvish/eval"
+	"github.com/jumpscale/elvish/util"
 )
 
 var _ = registerVariable("prompt", promptVariable)

@@ -3,7 +3,7 @@ package eval
 import (
 	"errors"
 
-	"github.com/elves/elvish/parse"
+	"github.com/jumpscale/elvish/parse"
 )
 
 // MapStringString implements MapLike for map[string]string.

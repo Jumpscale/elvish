@@ -1,6 +1,6 @@
 package eval
 
-import "github.com/elves/elvish/parse"
+import "github.com/jumpscale/elvish/parse"
 
 type argsWalker struct {
 	cp   *compiler

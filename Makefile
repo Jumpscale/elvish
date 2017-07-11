@@ -1,4 +1,4 @@
-PKG_BASE := github.com/elves/elvish
+PKG_BASE := github.com/jumpscale/elvish
 PKGS := $(shell go list ./... | grep -v /vendor/)
 PKG_COVERS := $(shell go list ./... | grep -v '^$(PKG_BASE)/vendor/' | grep -v '^$(PKG_BASE)$$' | sed "s|^$(PKG_BASE)/|cover/|" | sed 's/$$/.cover/')
 COVER_MODE := set

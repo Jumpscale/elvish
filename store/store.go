@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/util"
 
 	_ "github.com/mattn/go-sqlite3" // enable the "sqlite3" SQL driver
 )

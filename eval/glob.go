@@ -6,8 +6,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/elves/elvish/glob"
-	"github.com/elves/elvish/parse"
+	"github.com/jumpscale/elvish/glob"
+	"github.com/jumpscale/elvish/parse"
 )
 
 // GlobPattern is en ephemeral Value generated when evaluating tilde and

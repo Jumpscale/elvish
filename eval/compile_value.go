@@ -9,8 +9,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/elves/elvish/glob"
-	"github.com/elves/elvish/parse"
+	"github.com/jumpscale/elvish/glob"
+	"github.com/jumpscale/elvish/parse"
 )
 
 var outputCaptureBufferSize = 16

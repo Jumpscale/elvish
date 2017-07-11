@@ -3,8 +3,8 @@ package eval
 import (
 	"fmt"
 
-	"github.com/elves/elvish/parse"
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/parse"
+	"github.com/jumpscale/elvish/util"
 )
 
 // Search tries to resolve an external command and return the full (possibly

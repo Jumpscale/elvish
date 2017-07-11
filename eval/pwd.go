@@ -3,7 +3,7 @@ package eval
 import (
 	"os"
 
-	"github.com/elves/elvish/daemon/api"
+	"github.com/jumpscale/elvish/daemon/api"
 )
 
 // PwdVariable is a variable whose value always reflects the current working

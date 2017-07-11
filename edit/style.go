@@ -1,7 +1,7 @@
 package edit
 
 import (
-	"github.com/elves/elvish/edit/ui"
+	"github.com/jumpscale/elvish/edit/ui"
 )
 
 var styleForCompilerError = ui.Styles{"white", "bg-red"}

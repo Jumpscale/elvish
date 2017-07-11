@@ -6,8 +6,8 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/elves/elvish/parse"
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/parse"
+	"github.com/jumpscale/elvish/util"
 )
 
 // FdNil is a special impossible fd value used for "close fd" in

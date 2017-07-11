@@ -1,6 +1,6 @@
 package tty
 
-import "github.com/elves/elvish/edit/ui"
+import "github.com/jumpscale/elvish/edit/ui"
 
 // ReadUnit represents one "thing" that the Reader has read. It is one of the
 // following: RawRune (when the reader is in the raw mode), Key, CursorPosition,

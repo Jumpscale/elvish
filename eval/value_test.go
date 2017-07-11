@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/elves/elvish/glob"
+	"github.com/jumpscale/elvish/glob"
 )
 
 var reprTests = []struct {

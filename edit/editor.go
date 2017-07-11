@@ -9,15 +9,15 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/elves/elvish/daemon/api"
-	"github.com/elves/elvish/edit/highlight"
-	"github.com/elves/elvish/edit/history"
-	"github.com/elves/elvish/edit/tty"
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/eval"
-	"github.com/elves/elvish/parse"
-	"github.com/elves/elvish/sys"
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/daemon/api"
+	"github.com/jumpscale/elvish/edit/highlight"
+	"github.com/jumpscale/elvish/edit/history"
+	"github.com/jumpscale/elvish/edit/tty"
+	"github.com/jumpscale/elvish/edit/ui"
+	"github.com/jumpscale/elvish/eval"
+	"github.com/jumpscale/elvish/parse"
+	"github.com/jumpscale/elvish/sys"
+	"github.com/jumpscale/elvish/util"
 )
 
 var logger = util.GetLogger("[edit] ")

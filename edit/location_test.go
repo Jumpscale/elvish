@@ -3,14 +3,14 @@ package edit
 import (
 	"testing"
 
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/store/storedefs"
+	"github.com/jumpscale/elvish/edit/ui"
+	"github.com/jumpscale/elvish/store/storedefs"
 )
 
 var (
 	theLocation = newLocation([]storedefs.Dir{
 		{"/pinned", PinnedScore},
-		{"/src/github.com/elves/elvish", 300},
+		{"/src/github.com/jumpscale/elvish", 300},
 		{"/src/home/xyz", 233},
 		{"/home/dir", 100},
 		{"/foo/\nbar", 77},
@@ -20,17 +20,17 @@ var (
 	locationFilterTests = []listingFilterTestCases{
 		{"", []shown{
 			{"*", ui.Unstyled("/pinned")},
-			{"300", ui.Unstyled("/src/github.com/elves/elvish")},
+			{"300", ui.Unstyled("/src/github.com/jumpscale/elvish")},
 			{"233", ui.Unstyled("/src/home/xyz")},
 			{"100", ui.Unstyled("~/dir")},       // home is abbreviated
 			{"77", ui.Unstyled(`"/foo/\nbar"`)}, // special char is quoted
 			{"6", ui.Unstyled("/usr/elves/elvish")}}},
 		{"/s", []shown{
-			{"300", ui.Unstyled("/src/github.com/elves/elvish")},
+			{"300", ui.Unstyled("/src/github.com/jumpscale/elvish")},
 			{"233", ui.Unstyled("/src/home/xyz")},
 			{"6", ui.Unstyled("/usr/elves/elvish")}}},
 		{"/e/e", []shown{
-			{"300", ui.Unstyled("/src/github.com/elves/elvish")},
+			{"300", ui.Unstyled("/src/github.com/jumpscale/elvish")},
 			{"6", ui.Unstyled("/usr/elves/elvish")}}},
 		{"x", []shown{{"233", ui.Unstyled("/src/home/xyz")}}},
 		// Matchers operate on the displayed text, not the actual path.

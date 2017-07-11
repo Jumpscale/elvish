@@ -4,9 +4,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/elves/elvish/edit/highlight"
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/edit/highlight"
+	"github.com/jumpscale/elvish/edit/ui"
+	"github.com/jumpscale/elvish/util"
 )
 
 type renderer interface {

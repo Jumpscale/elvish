@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elves/elvish/sys"
+	"github.com/jumpscale/elvish/sys"
 )
 
 // Pretty arbitrary numbers. May not reveal deadlocks on all machines.

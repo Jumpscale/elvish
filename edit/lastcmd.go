@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elves/elvish/edit/ui"
+	"github.com/jumpscale/elvish/edit/ui"
 )
 
 // LastCmd mode.

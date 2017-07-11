@@ -3,8 +3,8 @@ package nodeutil
 import (
 	"strings"
 
-	"github.com/elves/elvish/parse"
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/parse"
+	"github.com/jumpscale/elvish/util"
 )
 
 func SimpleCompound(cn *parse.Compound, upto *parse.Indexing) (bool, string, error) {

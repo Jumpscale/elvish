@@ -9,9 +9,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/elves/elvish/daemon/api"
-	"github.com/elves/elvish/store"
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/daemon/api"
+	"github.com/jumpscale/elvish/store"
+	"github.com/jumpscale/elvish/util"
 )
 
 var logger = util.GetLogger("[daemon] ")

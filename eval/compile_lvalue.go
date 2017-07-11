@@ -3,7 +3,7 @@ package eval
 import (
 	"errors"
 
-	"github.com/elves/elvish/parse"
+	"github.com/jumpscale/elvish/parse"
 )
 
 // LValuesOp is an operation on an EvalCtx that produce Variable's.

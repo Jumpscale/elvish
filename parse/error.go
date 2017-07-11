@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/util"
 )
 
 // ErrorEntry represents one parse error.

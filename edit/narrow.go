@@ -7,8 +7,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/eval"
+	"github.com/jumpscale/elvish/edit/ui"
+	"github.com/jumpscale/elvish/eval"
 )
 
 var _ = registerBuiltins(modeNarrow, map[string]func(*Editor){

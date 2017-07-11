@@ -8,9 +8,9 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/elves/elvish/daemon/api"
-	"github.com/elves/elvish/parse"
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/daemon/api"
+	"github.com/jumpscale/elvish/parse"
+	"github.com/jumpscale/elvish/util"
 )
 
 func TestBuiltinPid(t *testing.T) {

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/elves/elvish/edit/history"
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/eval"
+	"github.com/jumpscale/elvish/edit/history"
+	"github.com/jumpscale/elvish/edit/ui"
+	"github.com/jumpscale/elvish/eval"
 )
 
 // Command history mode.

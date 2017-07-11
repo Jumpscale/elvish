@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/util"
 )
 
 // CompilationError represents a compilation error and can pretty print it.

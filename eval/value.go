@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/util"
 )
 
 // Definitions for Value interfaces, some simple Value types and some common

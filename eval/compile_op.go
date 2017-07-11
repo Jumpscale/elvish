@@ -5,7 +5,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/elves/elvish/parse"
+	"github.com/jumpscale/elvish/parse"
 )
 
 // Op is an operation on an EvalCtx.

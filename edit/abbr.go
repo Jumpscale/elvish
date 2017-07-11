@@ -1,6 +1,6 @@
 package edit
 
-import "github.com/elves/elvish/eval"
+import "github.com/jumpscale/elvish/eval"
 
 var _ = registerVariable("abbr", func() eval.Variable {
 	return eval.NewPtrVariableWithValidator(

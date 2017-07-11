@@ -1,6 +1,6 @@
 package eval
 
-import "github.com/elves/elvish/daemon/api"
+import "github.com/jumpscale/elvish/daemon/api"
 
 type sharedVariable struct {
 	store *api.Client

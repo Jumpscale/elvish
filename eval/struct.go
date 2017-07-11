@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/elves/elvish/parse"
+	"github.com/jumpscale/elvish/parse"
 )
 
 var (

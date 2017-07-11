@@ -5,7 +5,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/elves/elvish/daemon/api"
+	"github.com/jumpscale/elvish/daemon/api"
 )
 
 func makeBuiltinNamespace(daemon *api.Client) Namespace {

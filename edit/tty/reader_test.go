@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elves/elvish/edit/ui"
+	"github.com/jumpscale/elvish/edit/ui"
 )
 
 // timeout is the longest time the tests wait between writing something on

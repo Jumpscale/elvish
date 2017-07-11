@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/util"
 )
 
 func TestPtrVariable(t *testing.T) {

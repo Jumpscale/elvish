@@ -29,7 +29,7 @@ def main():
     out = open('boilerplate.go', 'w')
     print >>out, '''package eval
 
-import "github.com/elves/elvish/parse"'''
+import "github.com/jumpscale/elvish/parse"'''
     for fname in 'compile_op.go', 'compile_value.go':
         for line in file(fname):
             m = re.match(r'^func \(cp \*compiler\) (\w+)\(\w+ ([^,\[\]]+)(.*)\) (\w*OpFunc) {$', line)

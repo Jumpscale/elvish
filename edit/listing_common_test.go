@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/elves/elvish/edit/ui"
+	"github.com/jumpscale/elvish/edit/ui"
 )
 
 type shown struct {

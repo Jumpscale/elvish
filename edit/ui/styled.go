@@ -3,7 +3,7 @@ package ui
 import (
 	"strings"
 
-	"github.com/elves/elvish/parse"
+	"github.com/jumpscale/elvish/parse"
 )
 
 // Styled is a piece of text with style.

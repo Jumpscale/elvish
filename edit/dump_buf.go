@@ -5,7 +5,7 @@ import (
 	"html"
 	"strings"
 
-	"github.com/elves/elvish/eval"
+	"github.com/jumpscale/elvish/eval"
 )
 
 func _dumpBuf(ec *eval.EvalCtx, args []eval.Value, opts map[string]eval.Value) {

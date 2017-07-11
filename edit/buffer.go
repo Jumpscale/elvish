@@ -3,8 +3,8 @@ package edit
 import (
 	"strings"
 
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/edit/ui"
+	"github.com/jumpscale/elvish/util"
 )
 
 // cell is an indivisible unit on the screen. It is not necessarily 1 column

@@ -3,7 +3,7 @@ package store
 import (
 	"testing"
 
-	"github.com/elves/elvish/store/storedefs"
+	"github.com/jumpscale/elvish/store/storedefs"
 )
 
 var (

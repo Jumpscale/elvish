@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/elves/elvish/parse"
+	"github.com/jumpscale/elvish/parse"
 )
 
 type File struct {

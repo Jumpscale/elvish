@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/elves/elvish/parse"
+	"github.com/jumpscale/elvish/parse"
 )
 
 type styling struct {

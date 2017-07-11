@@ -3,8 +3,8 @@ package edit
 import (
 	"sync"
 
-	"github.com/elves/elvish/daemon/api"
-	"github.com/elves/elvish/eval"
+	"github.com/jumpscale/elvish/daemon/api"
+	"github.com/jumpscale/elvish/eval"
 )
 
 // History implements the $le:history variable. It is list-like.

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/util"
 )
 
 // Parser maintains some mutable states of parsing.

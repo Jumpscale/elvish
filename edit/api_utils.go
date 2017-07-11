@@ -5,7 +5,7 @@ package edit
 import (
 	"fmt"
 
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/util"
 )
 
 func throw(e error) {

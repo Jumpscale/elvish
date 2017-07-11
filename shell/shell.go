@@ -12,11 +12,11 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/elves/elvish/daemon/api"
-	"github.com/elves/elvish/edit"
-	"github.com/elves/elvish/eval"
-	"github.com/elves/elvish/sys"
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/daemon/api"
+	"github.com/jumpscale/elvish/edit"
+	"github.com/jumpscale/elvish/eval"
+	"github.com/jumpscale/elvish/sys"
+	"github.com/jumpscale/elvish/util"
 )
 
 var logger = util.GetLogger("[shell] ")

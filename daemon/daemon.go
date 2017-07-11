@@ -13,7 +13,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/util"
 )
 
 // Daemon keeps configurations for the daemon process.

@@ -24,10 +24,10 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/elves/elvish/parse"
-	"github.com/elves/elvish/store/storedefs"
-	"github.com/elves/elvish/sys"
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/parse"
+	"github.com/jumpscale/elvish/store/storedefs"
+	"github.com/jumpscale/elvish/sys"
+	"github.com/jumpscale/elvish/util"
 )
 
 var builtinFns []*BuiltinFn

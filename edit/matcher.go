@@ -3,8 +3,8 @@ package edit
 import (
 	"strings"
 
-	"github.com/elves/elvish/eval"
-	"github.com/elves/elvish/util"
+	"github.com/jumpscale/elvish/eval"
+	"github.com/jumpscale/elvish/util"
 )
 
 var _ = registerVariable("-use-subseq-matcher", func() eval.Variable {

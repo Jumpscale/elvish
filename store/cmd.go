@@ -3,7 +3,7 @@ package store
 import (
 	"database/sql"
 
-	"github.com/elves/elvish/store/storedefs"
+	"github.com/jumpscale/elvish/store/storedefs"
 )
 
 func init() {

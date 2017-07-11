@@ -1,8 +1,8 @@
 package edit
 
 import (
-	"github.com/elves/elvish/edit/ui"
-	"github.com/elves/elvish/eval"
+	"github.com/jumpscale/elvish/edit/ui"
+	"github.com/jumpscale/elvish/eval"
 )
 
 // Names of modes, used for subnamespaces of edit: and name of binding table in

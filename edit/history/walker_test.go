@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/elves/elvish/store/storedefs"
+	"github.com/jumpscale/elvish/store/storedefs"
 )
 
 func TestWalker(t *testing.T) {

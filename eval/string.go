@@ -3,7 +3,7 @@ package eval
 import (
 	"unicode/utf8"
 
-	"github.com/elves/elvish/parse"
+	"github.com/jumpscale/elvish/parse"
 )
 
 // String is just a string.
