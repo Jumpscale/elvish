@@ -87,7 +87,7 @@ func NewEvaler(daemon *api.Client, toSpawn *daemon.Daemon,
 		intCh:   nil,
 	}
 	for mod_name := range embeddedModules {
-		evaler.SourceText("<builtin module>", embeddedModules[mod_name])
+		evaler.SourceText("<builtin module>", "use" + mod_name)
 	}
 
 	return evaler

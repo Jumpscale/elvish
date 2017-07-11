@@ -82,7 +82,7 @@ There are two ways for extending Elvish
     ```
     elvish -c "cd <YOUR_GOPATH>/src/github.com/jumpscale/elvish/eval;./gen-embedded-modules"
     ```
-    - Rebuild Elvish, you will find all of your variables and methods exist without using namespaces
+    - Rebuild Elvish, you will find all of your variables and methods exist using namespaces
 
 - Using Golang methods
     - Create new go package in `eval` directory (i.e jumpscale)
