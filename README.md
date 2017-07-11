@@ -74,6 +74,60 @@ Users of macOS can build Elvish using [Homebrew](http://brew.sh):
 brew install --HEAD elvish
 ```
 
+### Extending Elvish
+There are two ways for extending Elvish
+- Using .elv scripts:
+    - Add any `.elv` script file in `eval` directory
+    - Regenerate embeddedModules using gen-embedded-modules elvish script
+    ```
+    elvish -c "cd <YOUR_GOPATH>/src/github.com/jumpscale/elvish/eval;./gen-embedded-modules"
+    ```
+    - Rebuild Elvish, you will find all of your variables and methods exist without using namespaces
+
+- Using Golang methods
+    - Create new go package in `eval` directory (i.e jumpscale)
+    - in jumpscale package add you new methods and register their namespaces
+    ```go
+    package jumpscale
+
+    import (
+        "github.com/jumpscale/elvish/eval"
+    )
+    
+    func Namespace() eval.Namespace {
+        ns := eval.Namespace{}
+        eval.AddBuiltinFns(ns, fns...)
+        return ns
+    }
+    
+    var fns = []*eval.BuiltinFn{
+        {"myfunc", myFunc},
+    }
+    
+    // Simple method to print each argument in newline on the console
+    func myFunc(ec *eval.EvalCtx, args []eval.Value, opts map[string]eval.Value) {
+        out := ec.OutputChan()
+        for _, arg := range args {
+            out <- eval.String(arg.Repr(0))
+        }
+    }
+    ```
+    - import your new package in the `main.go` file
+    ```go
+    import ("github.com/arahmanhamdy/elvish/eval/jumpscale")
+    ```
+    - in `main.go` file modify extraModule variable to include your module
+    ```
+    extraModules := map[string]eval.Namespace{
+      		.....
+      		"jumpscale": jumpscale.Namespace(),
+      		....
+    }
+    ```
+    - Rebuild Elvish, you will be able to call your myfunc method using jumpscale namespace (i.e `jumpscale:myfunc`)
+
+Note that you can still extend elvish without editing the source code by [importing modules](https://elvish.io/ref/language.html#importing-module-use)
+
 
 ## Name
 
